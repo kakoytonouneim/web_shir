@@ -1,36 +1,72 @@
+.main_block {
+	position	: relative;
+  width		: 100%; 
+}
+
 .title{
-    padding-left: 100px;
-    padding-top: 200px;
-    font-size: 50px;
-    color: #5DB6DE;
+  position: absolute;
+  width: 743px;
+  height: 166px;
+  left: 571px;
+  top: 250px;
+
+   
+  font-family: TT Commons;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 83px;
+  text-align: center;
+
+  color: #5DB6DE;
 }
 
 .subtitle{
-    font-size: 30px;
-    color: #000000;
-    font-style: normal;
+  position: absolute;
+  width: 679px;
+  height: 84px;
+  
+  font-family: TT Commons;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  
+  color: #000000;
+  
 }
 
 .bg_main{
-    padding-right: 100px;
-    padding-top: 20px;
-    
+  height: 1080px;
+  width: 1920px;
 }
   
-  .line1{
-    padding-left: 80px;
-  }
-  
-  .but{
-    background-color: transparent;
-  }
-  
-  .button1{
-    width: 310px;
-  }
-  
-  
-  .button2{
-    width: 458px;
-  }
-  
+
+
+.but1{
+  width: 411px;
+  background-color: transparent;
+  position: absolute;
+  height: 76px;
+  width: 411px;
+  left: 714px;
+  top: 620px;
+  border-radius: 0px;
+  text-align: center;
+}
+
+.but2{
+  width: 411px;
+  background-color: transparent;
+  position: absolute;
+  height: 76px;
+  width: 411px;
+  left: 714px;
+  top: 720px;
+  border-radius: 0px;
+  text-align: center;
+}
+
+
+

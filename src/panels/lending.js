@@ -12,36 +12,38 @@ import './lending.css';
 
 const osName = platform();
 
-const Persik = ({ id, go, fetchedUser }) => (
+const Lending = ({ id, go, fetchedUser }) => (
 	<Panel id={id}>
 		<PanelHeader>
-			здесь будет header
+			а тут header кстати будет!!!
 		</PanelHeader>
-		<img className="bg_main" align="right" src={bg_main} alt="bg_main"/>
-		<p className="title">
-			<b>СУПЕР КЛАССНЫЙ ЗАГОЛОВОК</b>
-			<p className="subtitle">
-			<b>и такой же супер пупер крутой подзаголовок!!!! текст!! тексттекст</b>
-		</p>
-		</p>
-		
-		
-		
-		<div className="line1">
-			<Button className="but" onClick={go} data-to="reg">
-				<img className="button1" src={button1}/>
+		<div className="main_block">
+			<img className="bg_main" align="right" src={bg_main} alt="bg_main"/>
+			<p className="title">
+				<b>СУПЕР КЛАССНЫЙ ЗАГОЛОВОК</b>
+				<p className="subtitle">
+				<b>и такой же супер пупер крутой подзаголовок!!!! текст!! тексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттекст</b></p>
+			</p>
+			<div className="buttons">
+			<Button className="but1" onClick={go} data-to="reg_leader">
+				<img className="but" src={button1}/>
 			</Button>
-			<Button className="but" onClick={go} data-to="reg">
-				<img className="button2" src={button2} />
+			<Button className="but2" onClick={go} data-to="reg_member">
+				<img className="but" src={button2} />
 			</Button>
+			</div>
+			
 			
 		</div>
+		
+			
+
 		</Panel>
 );
 
-Persik.propTypes = {
+Lending.propTypes = {
 	id: PropTypes.string.isRequired,
 	go: PropTypes.func.isRequired,
 };
 
-export default Persik;
+export default Lending;

@@ -5,7 +5,8 @@ import ScreenSpinner from '@vkontakte/vkui/dist/components/ScreenSpinner/ScreenS
 import '@vkontakte/vkui/dist/vkui.css';
 
 import Lending from './panels/lending';
-import Reg from './panels/reg';
+import Reg_leader from './panels/reg_leader';
+import Reg_member from './panels/reg_member';
 
 
 const App = () => {
@@ -36,7 +37,8 @@ const App = () => {
 	return (
 		<View activePanel={activePanel} popout={popout}>
 			<Lending id='lending' fetchedUser={fetchedUser} go={go} />
-			<Reg id='reg' go={go} />
+			<Reg_leader id='reg_leader' go={go} />
+			<Reg_member id='reg_member' go={go} />
 		</View>
 	);
 }
