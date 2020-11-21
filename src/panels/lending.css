@@ -1,0 +1,36 @@
+.title{
+    padding-left: 100px;
+    padding-top: 200px;
+    font-size: 50px;
+    color: #5DB6DE;
+}
+
+.subtitle{
+    font-size: 30px;
+    color: #000000;
+    font-style: normal;
+}
+
+.bg_main{
+    padding-right: 100px;
+    padding-top: 20px;
+    
+}
+  
+  .line1{
+    padding-left: 80px;
+  }
+  
+  .but{
+    background-color: transparent;
+  }
+  
+  .button1{
+    width: 310px;
+  }
+  
+  
+  .button2{
+    width: 458px;
+  }
+  
