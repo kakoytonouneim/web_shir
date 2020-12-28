@@ -25,7 +25,7 @@ const Lending = ({ id, go, fetchedUser }) => (
 				<b>и такой же супер пупер крутой подзаголовок!!!! текст!! тексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттекст</b></p>
 			</p>
 			<div className="buttons">
-			<Button className="but1" onClick={go} data-to="reg_leader">
+			<Button className="but1" onClick={go} data-to="">
 				<img className="but" src={button1}/>
 			</Button>
 			<Button className="but2" onClick={go} data-to="reg_member">
