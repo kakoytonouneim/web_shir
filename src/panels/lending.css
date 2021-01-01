@@ -1,9 +1,9 @@
 .main_block {
-	position	: relative;
-  width		: 100%; 
+  position: relative;
+  width: 100%;
 }
 
-.title{
+.title {
   position: absolute;
   width: 743px;
   height: 166px;
@@ -16,33 +16,30 @@
   line-height: 83px;
   text-align: center;
 
-  color: #5DB6DE;
+  color: #5db6de;
 }
 
-.subtitle{
+.subtitle {
   position: absolute;
   width: 679px;
   height: 84px;
-  
+
   font-family: TT Commons;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
   text-align: center;
-  
+
   color: #000000;
-  
 }
 
-.bg_main{
+.bg_main {
   height: 1000px;
   width: 1920px;
 }
-  
 
-
-.but1{
+.but1 {
   width: 411px;
   background-color: transparent;
   position: absolute;
@@ -54,7 +51,7 @@
   text-align: center;
 }
 
-.but2{
+.but2 {
   width: 411px;
   background-color: transparent;
   position: absolute;
@@ -65,6 +62,3 @@
   border-radius: 0px;
   text-align: center;
 }
-
-
-
