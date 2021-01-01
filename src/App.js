@@ -5,6 +5,8 @@ import '@vkontakte/vkui/dist/vkui.css';
 
 import Lending from './panels/lending';
 
+const b = 1;
+
 const App = () => {
   const [activePanel, setActivePanel] = useState('lending');
   const [fetchedUser, setUser] = useState(null);
