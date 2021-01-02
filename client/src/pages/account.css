@@ -1,0 +1,56 @@
+.header {
+  position: relative;
+  width: 1920px;
+  height: 70px;
+
+  background: #ffffff;
+}
+
+.left_panel {
+  position: relative;
+  width: 300px;
+  height: 930px;
+  background: #f4f4f4;
+
+  /* identical to box height */
+
+  color: rgba(0, 0, 0, 0.46);
+}
+
+.otstup {
+  height: 70px;
+}
+
+.menu {
+  font-family: TT Commons;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 35px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.user {
+  position: relative;
+  width: 1920px;
+  height: 930px;
+  background: #ebebeb;
+}
+
+.user_card {
+  position: absolute;
+  width: 1311px;
+  height: 631px;
+  left: 478px;
+  top: 100px;
+
+  text-align: center;
+  background: #ffffff;
+}
+
+.text {
+  font-family: TT Commons;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 300px;
+}
