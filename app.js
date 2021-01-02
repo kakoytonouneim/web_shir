@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/login", (req, res) => {
-    const redirect_uri = 'http://localhost:3001/api/return';
+    const redirect_uri = 'http://localhost:9000/api/return';
     const redirectLink = `https://talent.kruzhok.org/oauth/authorize/?response_type=code\&client_id=${client_id}\&redirect_uri=${redirect_uri}`;
 
     res.redirect(redirectLink);

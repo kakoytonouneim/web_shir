@@ -1,43 +1,39 @@
 .main_block {
-	position	: relative;
-  width		: 100%; 
+	position: relative;
 }
 
 .title{
   position: absolute;
   width: 743px;
   height: 166px;
-  left: 571px;
-  top: 200px;
+  left: 550px;
+  top: 250px;
+  
   font-family: TT Commons;
   font-style: normal;
   font-weight: bold;
   font-size: 72px;
   line-height: 83px;
   text-align: center;
-
+  
   color: #5DB6DE;
 }
 
 .subtitle{
   position: absolute;
-  width: 679px;
-  height: 84px;
-  
+  left: 620px;
+  top: 480px;
+  font-size: 20px;
   font-family: TT Commons;
   font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 28px;
   text-align: center;
-  
+
   color: #000000;
-  
 }
 
 .bg_main{
-  height: 1000px;
-  width: 1920px;
+  width: 100%;
+  height: 970px;
 }
   
 
@@ -48,9 +44,9 @@
   position: absolute;
   height: 76px;
   width: 411px;
-  left: 714px;
-  top: 570px;
-  border-radius: 0px;
+  left: 690px;
+  top: 590px;
+  border: 0px;
   text-align: center;
 }
 
@@ -60,11 +56,8 @@
   position: absolute;
   height: 76px;
   width: 411px;
-  left: 714px;
-  top: 660px;
-  border-radius: 0px;
+  left: 690px;
+  top: 680px;
+  border: 0px;
   text-align: center;
 }
-
-
-
