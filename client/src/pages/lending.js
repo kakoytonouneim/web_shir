@@ -1,8 +1,10 @@
-import React, { Component } from 'react';
+import React, { Component} from 'react';
 import bg_main from '../img/bg1.png';
 import button1 from '../img/button1.png';
 import button2 from '../img/button2.png';
 import './lending.css';
+import styled from 'styled-components';
+import {AuthPage} from './auth';
 
 export const Lending = ({go}) => {
   return (
@@ -15,7 +17,7 @@ export const Lending = ({go}) => {
 				<b>тексттексттексттексттексттексттексттексттексттекст<br></br>тексттексттексттексттексттексттексттексттексттексттексттекст<br></br>тексттекст</b>
 			</p>
 			<div className="buttons">
-			<form action="http://localhost:9000/login">
+			<form action="/login">
 			<button className="but1" onClick={go} data-to="">
 				<img className="but" src={button1}/>
 			</button>

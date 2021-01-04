@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './account.css';
+import styled from 'styled-components';
+import axios from 'axios';
 
 export const Account = ({go}) => {
   return (
